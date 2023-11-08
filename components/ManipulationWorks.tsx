@@ -7,7 +7,7 @@ export default function ManipulationWorks() {
       <h1 className="text-5xl">Manipulation Works </h1>
 
       <div
-        className="border border-black h-[400px] w-full overflow-x-scroll rounded-xl flex items-center justify-around mt-6"
+        className="h-[400px] w-full overflow-x-scroll rounded-xl flex items-center gap-2  justify-around mt-6"
         style={{ flex: "0 0 auto" }}
       >
         <div
@@ -22,6 +22,11 @@ export default function ManipulationWorks() {
             style={{ flex: "0 0 auto" }}
             className="rounded-xl object-cover"
           />
+        </div>
+        <div
+          className="h-[380px] w-[300px] rounded-xl flex justify-around gap-2 border border-black"
+          style={{ flex: "0 0 auto" }}
+        >
           <img
             src="/dr-strange-momdns.png"
             alt="ds"
@@ -30,6 +35,11 @@ export default function ManipulationWorks() {
             style={{ flex: "0 0 auto" }}
             className="rounded-xl object-cover"
           />
+        </div>
+        <div
+          className="h-[380px] w-[300px] rounded-xl flex justify-around gap-2 border border-black"
+          style={{ flex: "0 0 auto" }}
+        >
           <img
             src="/dr-strange-momdns.png"
             alt="ds"
@@ -38,6 +48,11 @@ export default function ManipulationWorks() {
             style={{ flex: "0 0 auto" }}
             className="rounded-xl object-cover"
           />
+        </div>
+        <div
+          className="h-[380px] w-[300px] rounded-xl flex justify-around gap-2 border border-black"
+          style={{ flex: "0 0 auto" }}
+        >
           <img
             src="/dr-strange-momdns.png"
             alt="ds"
@@ -46,6 +61,11 @@ export default function ManipulationWorks() {
             style={{ flex: "0 0 auto" }}
             className="rounded-xl object-cover"
           />
+        </div>
+        <div
+          className="h-[380px] w-[300px] rounded-xl flex justify-around gap-2 border border-black"
+          style={{ flex: "0 0 auto" }}
+        >
           <img
             src="/dr-strange-momdns.png"
             alt="ds"
@@ -54,38 +74,11 @@ export default function ManipulationWorks() {
             style={{ flex: "0 0 auto" }}
             className="rounded-xl object-cover"
           />
-          <img
-            src="/dr-strange-momdns.png"
-            alt="ds"
-            height={"100%"}
-            width={"100%"}
-            style={{ flex: "0 0 auto" }}
-            className="rounded-xl object-cover"
-          />
-          <img
-            src="/dr-strange-momdns.png"
-            alt="ds"
-            height={"100%"}
-            width={"100%"}
-            style={{ flex: "0 0 auto" }}
-            className="rounded-xl object-cover"
-          />
-          <img
-            src="/dr-strange-momdns.png"
-            alt="ds"
-            height={"100%"}
-            width={"100%"}
-            style={{ flex: "0 0 auto" }}
-            className="rounded-xl object-cover"
-          />
-          <img
-            src="/dr-strange-momdns.png"
-            alt="ds"
-            height={"100%"}
-            width={"100%"}
-            style={{ flex: "0 0 auto" }}
-            className="rounded-xl object-cover"
-          />
+        </div>
+        <div
+          className="h-[380px] w-[300px] rounded-xl flex justify-around gap-2 border border-black"
+          style={{ flex: "0 0 auto" }}
+        >
           <img
             src="/dr-strange-momdns.png"
             alt="ds"
@@ -96,14 +89,13 @@ export default function ManipulationWorks() {
           />
         </div>
       </div>
-      <div className=" object-cover border border-green-400  rounded-xl mt-1">
+      <div className=" object-cover rounded-xl mt-1">
         <img
           src="/mcuCinematicUniverse.jpg"
           alt="mcu"
           className="rounded-xl"
           height={'100%'}
           width={'100%'}
-          style={{border:'2px solid red'}}
         ></img>
       </div>
     </div>
